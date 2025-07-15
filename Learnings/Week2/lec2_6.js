@@ -17,3 +17,14 @@ console.log(output);
 /**
  * Filter Function
  */
+
+//This is a funtion in which we pass our filtering logic and then expect a filtered output in response
+
+const arr = [1,2,3,4,5];
+
+console.log(arr.filter((n)=>{
+    if(n%2==0)
+        return true;
+    else
+        return false;
+}));
