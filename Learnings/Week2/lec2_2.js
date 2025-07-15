@@ -58,6 +58,7 @@
  * 403 - Authentication Issue
  * 500 - Internal Server Error
  * 400 - Bad Request
+ * 411 - Inputs were incorrect
  */
 
 /**
